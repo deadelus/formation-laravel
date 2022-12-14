@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Admin;
 
+use App\Http\Controllers\Controller;
 use App\Models\Article;
-use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Http\Request;
 
 class ArticleController extends Controller
@@ -18,5 +18,22 @@ class ArticleController extends Controller
     function show(Article $article)
     {
         return $article;
+    }
+
+    function newArticle() {
+        // todo
+    }
+
+    function updateArticle() {
+        // todo
+    }
+
+    function deleteArticle() {
+        // todo
+    }
+
+    function save()
+    {
+        // todo
     }
 }
